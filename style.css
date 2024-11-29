@@ -1,3 +1,38 @@
 section{
     height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    background-color: grey;
+    transition: 30%;
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: whitesmoke;
+    background-color: #000000;
+}
+
+.html {
+    width: 90%; 
+    background-color: #00ffa2;
+}
+.css {
+    width: 80%; 
+    background-color: #008bfc;
+} 
+.js {
+    width: 65%; 
+    background-color: #a21d13;
+}
+.php {
+    width: 60%; 
+    background-color: #343131;
 }
