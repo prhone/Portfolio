@@ -16,29 +16,72 @@ h2 {
 }
 
 .container {
-    background-color: grey;
-    transition: 30%;
+    background-color: rgb(189, 184, 184);
 }
 
 .skills {
     text-align: right; 
     padding-top: 10px; 
     padding-bottom: 10px; 
+    padding-right: 10px;
     color: whitesmoke;
     background-color: #000000;
 }
 
 .html {
     width: 90%; 
-    background-color: #00ffa2;
+    background-color: #68b89b;
+    position: relative;
+    animation-name: bar1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
+
+
+@keyframes bar1{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
 .css {
     width: 80%; 
-    background-color: #008bfc;
+    background-color: #406889;
+    position: relative;
+    animation-name: bar2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 } 
+
+
+@keyframes bar2{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
 .js {
     width: 65%; 
-    background-color: #a21d13;
+    background-color: #814946;
+    position: relative;
+    animation-name: bar3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar3{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 65%;
+    }
 }
 
 .nav-content{
@@ -56,4 +99,8 @@ padding: 1rem 10%;
     display: inline;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+@media (height > 600px) {
+    
 }
