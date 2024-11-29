@@ -43,7 +43,6 @@ h2 {
 
 .nav-content{
 
-
 }
 
 .link-contener{
@@ -56,4 +55,22 @@ padding: 1rem 10%;
     display: inline;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.form {
+    background-color:#a21d13;
+    width: 45%;
+    margin: 0 20px;
+    padding: 0 20px;
+    position: absolute;
+
+}
+.image {
+    text-align: right;
+}
+.name {
+
+}
+.email {
+    
 }
