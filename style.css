@@ -108,8 +108,15 @@ padding: 1rem 10%;
     position: absolute;
 
 }
-.image {
-    text-align: right;
+.landing-page{
+    width: 100vw;
+    height: 100vw;
+    background-image: url('programowanie.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
 }
 .name {
 
