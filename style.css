@@ -29,6 +29,8 @@ h2 {
 position: fixed;
 width: 100%;
 z-index: 9999;
+padding: .6rem 10%;
+justify-content: space-between;
 background: radial-gradient(circle at bottom left, #dbae34 0%,#e1d6b5 20%, #94700f 110%);
 box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
 }
@@ -103,13 +105,34 @@ box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
 }
 
 
+.link-contener{
+width: 100%;
+}
 
 .link-contener{
 display: flex;
-justify-content: space-between;
-padding: .6rem 10%;
 font-family:"Bokor" , system-ui ;
+list-style: none;
+align-items: center;
 }
+
+.link-contener li:nth-child(6){
+margin-left: auto;
+display: flex;
+}
+.link-contener li:nth-child(-n+5){
+margin-left: 5%;
+}
+
+.link-contener li:nth-child(6) a:nth-child(2){
+    margin-left: 2rem; 
+}
+
+.link-contener a, .nav-content-img a{
+  display: flex;
+}
+
+
 
 .link-contener li{
     display: inline;
@@ -141,6 +164,14 @@ scale: 1.1;
     padding: .5rem;
     font-size: 2rem;
 }
+.nav-img{
+    width: 2.5rem;
+}
+.nav-img:hover{
+    scale: 1.1;
+}
+
+
 
 @media (height > 600px) {
     
@@ -155,15 +186,21 @@ scale: 1.1;
    
     .link-contener {
         display: none;
+        align-items: start;
     }
+    .link-contener li:nth-child(6){
+        margin-left: 5%;
+    }
+
+.link-contener li:nth-child(6) a:nth-child(2){
+    margin-left: .5rem;
+}
 
     .blank:focus + .link-contener , .link-contener:hover{
         display: flex;
         flex-direction: column;
-
     }
 }
-
 
 
 
