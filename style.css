@@ -5,7 +5,6 @@
     margin: 0;
     text-decoration: none;    
     box-sizing: border-box;
-
 }
 
 html{
@@ -22,8 +21,6 @@ section{
 h2 {
     text-align: center;
 }
-
-
 
 .nav-content{
 position: fixed;
@@ -46,9 +43,9 @@ box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
     padding-bottom: 10px; 
     padding-right: 10px;
     color: whitesmoke;
-    background-color: #01021f;
-    
+    background-color: #01021f;    
 }
+
 .toolsh2{
     background-color: cyan;
     border-style: inset;
@@ -57,14 +54,14 @@ box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
     margin-bottom: auto;
     display: flex;
     justify-content: center;
-    
 }
+
 .headertools{
     font-family: "Bokor", system-ui;
     color:  #404040;
     font-size: 80px;
-    
 }
+
 .toolsdiv{
     text-align: center;
     box-sizing: border-box;
@@ -74,8 +71,8 @@ box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
     height: 50%;
     padding: 5px;
     background-color: #404040;
-    
 }
+
 .toolsclick{
     text-decoration: none;
     
@@ -179,7 +176,6 @@ box-shadow: 2px 2px 8px -2px rgb(60, 59, 59);
     }
 }
 
-
 .link-contener{
 width: 100%;
 display: flex;
@@ -204,8 +200,6 @@ margin-left: 5%;
   display: flex;
 }
 
-
-
 .link-contener li{
     display: inline;
     font-size: 1.4rem;
@@ -217,6 +211,7 @@ margin-left: 5%;
 .link-contener li a, .blank i{
     color: rgba(91, 7, 7, 0.7);
 }
+
 .link-contener li a:hover, .blank i:hover{
     color: rgba(91, 7, 7, 1);
 }
@@ -228,6 +223,7 @@ background-color: transparent;
 border: 0;
 box-shadow: 2px 2px 4px -2px rgb(55, 53, 53);
 }
+
 .blank:hover{
 scale: 1.1;
 }
@@ -236,14 +232,14 @@ scale: 1.1;
     padding: .5rem;
     font-size: 2rem;
 }
+
 .nav-img{
     width: 2.5rem;
 }
+
 .nav-img:hover{
     scale: 1.1;
 }
-
-
 
 @media (height > 600px) {
     
