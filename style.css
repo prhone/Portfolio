@@ -100,29 +100,75 @@ padding: 1rem 10%;
     font-weight: 600;
 }
 
-.form {
-    background-color:#a21d13;
-    width: 45%;
-    margin: 0 20px;
-    padding: 0 20px;
-    position: absolute;
-
-}
-.landing-page{
+.contact-main {
     width: 100vw;
-    height: 100vw;
+    height: calc(100vh - 70px);
     background-image: url('programowanie.jpg');
     background-position: center;
     background-size: cover;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.contact-main-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.name {
 
+.contact-main-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; 
 }
-.email {
+
+.contact-main-text h1 {
+    font-size: 36px;
+    margin: 0;
 }
+
+.contact-main-text h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); 
+    width: 50%; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form label {
+    width: 90%;
+    margin-bottom: 15px; 
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #a21d13;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b7281c;
+}
+
 @media (height > 600px) {
     
 }
